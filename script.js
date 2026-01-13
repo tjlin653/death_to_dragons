@@ -362,8 +362,6 @@
                 gemCard.classList.remove('keyboard-focus');
             }
         });
-
-        
     }
 
     //handles what happens if the player choose the card on the right

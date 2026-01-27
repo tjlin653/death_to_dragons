@@ -343,3 +343,7 @@ body {
 #display-cards img:hover, #display-cards img.keyboard-focus {
     transform: scale(1.05);
 }
+
+@media only screen and (min-width: 600px) {
+    
+}

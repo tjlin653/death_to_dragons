@@ -8,10 +8,6 @@ body {
     background-color: #800000;
 }
 
-#homeScreen {
-    min-height: 100dvh;
-}
-
 #logo {
     margin: 200px auto 0 auto;
     display: block;
@@ -92,7 +88,7 @@ body {
     position: absolute;
     font-size: 18px;
     font-family: "Almendra SC";
-    left: 365px;     
+    left: 165px;     
     transform: none; 
     text-align: left;
 }
@@ -355,7 +351,7 @@ body {
     }
 
     #startgame {
-        margin: 10px 0 30px 0;
+        margin: 10px 0 20px 0;
         font-size: 21px;
         width: 250px;
         height: 50px;
@@ -367,8 +363,12 @@ body {
     }
     
     #instructions-label {
-        top: 630px;           
+        top: 620px;           
         left: 49%;           
         font-size: 21px;
+    }
+
+    #instructions-page p {
+        left: 365px;     
     }
 }

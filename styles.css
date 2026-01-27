@@ -8,6 +8,10 @@ body {
     background-color: #800000;
 }
 
+#homeScreen {
+    min-height: 100dvh;
+}
+
 #logo {
     margin: 200px auto 0 auto;
     display: block;
@@ -17,7 +21,8 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin: 50px 0 50px 0;
+    margin-top: 25rem;
+    margin-bottom: 2rem;
     font-family: Lexend;
     font-size: 36px;
     width: 410px;
@@ -57,7 +62,7 @@ body {
 
 #instructions-label {
     position: absolute;
-    top: 730px;           
+    top: 66.5rem;        
     left: 48%;           
     transform: translateX(-49%);
     font-size: 21px;

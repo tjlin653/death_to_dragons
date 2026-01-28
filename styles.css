@@ -205,10 +205,11 @@ body {
 }
 
 #display-cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto;
     gap: 35px;
     margin-top: 40px;
-    justify-content: center;
+    justify-items: center;
 }
 
 #settings {
@@ -370,5 +371,26 @@ body {
 
     #instructions-page p {
         left: 365px;     
+    }
+
+    #gameInfo {
+        justify-content: space-between;
+    }
+
+    #turnInfo, #gemInfo {
+        border-radius: 20px;
+        margin-top: 30px;
+        padding: 10px 40px 10px 40px;
+    }
+
+    #turnInfo p, #gemInfo p {
+        margin: 10px 0 10px 0;
+    }
+
+    #display-cards {
+        display: flex;
+        gap: 35px;
+        margin-top: 40px;
+        justify-content: center;
     }
 }

@@ -337,6 +337,10 @@ body {
     cursor: url('images/medieval-hand.png'), pointer;
 }
 
+#display-cards {
+    margin-top: 9rem;
+}
+
 #display-cards img {
     transform: scale(1);
     transition: transform 0.25s ease;

@@ -215,7 +215,7 @@ body {
 #settings {
     position: relative;
     z-index: 3;
-    margin-left: 980px;
+    margin-left: 570px;
     margin-top: 40px;
     width: 32px;
     height: 32px;
@@ -392,5 +392,9 @@ body {
         gap: 35px;
         margin-top: 40px;
         justify-content: center;
+    }
+
+    #settings {
+        margin-left: 980px;
     }
 }
